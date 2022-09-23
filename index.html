@@ -34,50 +34,62 @@
     <a class="link secondary-link" href="/">secondary button</a>
     <hr>
     <h2>@lists</h2>
-    <h3>unorder lists</h3>
+    <h3 >unorder lists</h3>
     <ul>
-         <li>First item</li>
-         <li>second item</li>
-         <li>Third item</li>
+         <li class="list-non-bullet list-item-inline">First item</li>
+         <li class="list-non-bullet list-item-inline">second item</li>
+         <li class="list-non-bullet list-item-inline">Third item</li>
 
     </ul>
     <hr>
     <h2>@nav</h2>
-    <div>Product name</div>
-    <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Projects</a></li>
-        <li><a href="/">Blogs</a></li>
+    <nav class="navigation container">
+    <div class="heading" >Product name</div>
+    <ul class="nav-pills">
+        <li class="list-item-inline"><a class="link link-active" href="/">Home</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Projects</a></li>
+        <li class="list-item-inline"><a class="link" href="/">Blogs</a></li>
+        
     </ul>
+    </nav>
     <hr>
     <h2>@Header</h2>
-    <header>
-        <img src="images/pyar.svg">
-        <h1>Heading inside header</h1>
+    <header class="hero">
+        <img class="hero-img" src="images/pyar.svg">
+        <h1 class="hero-heading">Heading inside <span class="hero-inverted">heading</span></h1>
     </header>
     <hr>
     <h2>@sections</h2>
-    <section>
-        <h3> white background section</h3>
-        <p>This section have white background</p>    
+    <section class="section">
+        <div class="container container-center">
+            <h1> white background section</h1>
+            <p>This section have white background</p>
+
+        </div>
+            
     </section>
-    <section>
-        <h3> off white background sections</h3>
-        <p>This section has off white background </p>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1> off white background sections</h1>
+            <p>This section has off white background </p>
+
+        </div>
+       
     </section>
     <hr>
     <h2>@footer</h2>
-    <div>Some small things of fotter</div>
+    <footer class="footer">
+    <div class="footer-header">Some small things of fotter</div>
 
     <ul>
-        <li><a href="/">instagram</a></li>
-        <li><a href="/">Linkdin</a></li>
-        <li><a href="/">Facebook</a></li>
+        <li class="list-non-bullet list-item-inline"><a class="link" href="/">instagram</a></li>
+        <li class="list-non-bullet list-item-inline"><a class="link"href="/">Linkdin</a></li>
+        <li class="list-non-bullet list-item-inline"><a class="link"href="/">Facebook</a></li>
     </ul>
 
 
     <div style="height:30px"></div>
-
+    </footer> 
     
 </body>
 </html>
